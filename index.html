@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="image/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>Food</title>
+</head>
+<body>
+<div class="wrapper">
+     <div class="container">
+         <header class="header">
+                 <div class="header__logo"><a href="#"><img src="image/header/logo (1).png" alt=""></a></div>
+                 <div class="header__burger">
+                    <span></span>
+                </div>
+                 <nav class="header__menu">
+                     <ul class="header__list">
+                         <li><a href="#" class="header__link active">РЕЦЕПТЫ</a></li>
+                         <li><a href="#" class="header__link">ПРОДУКТЫ</a></li>
+                         <li><a href="#" class="header__link">КАК ПРИГОТОВИТЬ</a></li>
+                         <li><a href="#" class="header__link">кулинарная книга</a></li>
+                         <li><a href="#" class="header__link">здоровье</a></li>
+                         <li><a href="#" class="header__link">авторы</a></li>
+                         <div class="header__lang nav">
+                            <a href="#" class="lang">EN</a>
+                            <a href="#" class="lang active">RU</a>
+                       </div>
+                       <div class="header__social nav">
+                        <a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </div>
+                     </ul>
+                 </nav>
+                 <div class="header__lang">
+                     <a href="#" class="lang active">EN</a>
+                     <a href="#" class="lang">RU</a>
+                </div>
+                 <div class="header__social">
+                     <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                     <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                 </div>
+         </header>
+         <main class="content">
+            <div class="content__container">
+                <section class="content__info">
+                    <div class="comtent__info__top">
+                        <div class="content__search">
+                            <a href="#" class="search_a"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                            <form action="#" class="search__form">
+                                <input type="text" placeholder="поиск...">
+                                <button type="submit"><i class="fa fa-search-plus" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                        <div class="content__password">
+                            <a href="#popup2" class="password__message"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                            <a href="#popup" class="password__pass"><i class="fa fa-user" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="content__info__image"><img src="image/info/info.png" alt="img"></div>
+                </section>
+                <section class="recept">
+                    <h1 class="pecept__title">ПОДБОР РЕЦЕПТОВ</h1>
+                    <div class="recert__body">
+                        <form class="fill">
+                            <ul class="fill__list">
+                                <li>
+                                    <a href="#" class="fill__link">Выпечка и десерты</a>
+                                    <span class="fill__arrow arrow"></span>
+                                    <ul class="sub__fill__list">
+                                        <li>
+                                           <a href="#"  class="sub__fill__link">Выпечка</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Десерты</a>
+                                        </li> 
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="fill__link">Любое блюдо</a>
+                                    <span class="fill__arrow arrow"></span>
+                                    <ul class="sub__fill__list">
+                                        <li>
+                                           <a href="#"  class="sub__fill__link">На первое</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">На второе</a>
+                                        </li> 
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Десерт</a>
+                                        </li> 
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="fill__link">Любая кухня</a>
+                                    <span class="fill__arrow arrow"></span>
+                                    <ul class="sub__fill__list">
+                                        <li>
+                                           <a href="#"  class="sub__fill__link">Китайская</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Японская</a>
+                                        </li> 
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Русская</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Белорусская</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Украинская</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Польская</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="fill__link">Любое меню</a>
+                                    <span class="fill__arrow arrow"></span>
+                                    <ul class="sub__fill__list">
+                                        <li>
+                                           <a href="#"  class="sub__fill__link">Утренний перекус</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Сытный обед</a>
+                                        </li> 
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Вкусный ужин</a>
+                                        </li> 
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Напитки</a>
+                                        </li> 
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="fill__link">Сложность</a>
+                                    <span class="fill__arrow arrow"></span>
+                                    <ul class="sub__fill__list">
+                                        <li>
+                                           <a href="#"  class="sub__fill__link">Для новичков</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Для опытных</a>
+                                        </li> 
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Шеф-повар</a>
+                                        </li> 
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="fill__link">Детали</a>
+                                    <span class="fill__arrow arrow"></span>
+                                    <ul class="sub__fill__list">
+                                        <li>
+                                           <a href="#"  class="sub__fill__link">Новое</a>
+                                        </li>
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">От провереных авторов</a>
+                                        </li> 
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Самые высокие оценки</a>
+                                        </li> 
+                                        <li>
+                                            <a href="#"  class="sub__fill__link">Популярное</a>
+                                        </li> 
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="fill__submit"><button type="submit">Подобрать рецепты</button></div>
+                        </form>
+                        <div class="recept__image">
+                            <div class="recept__top">
+                                <div class="recept__div__image"> 
+                                    <div class="recept__div__image_1"><a href="#"><img src="image/recept__image/01.jpg"></a></div>
+                                    <div class="image__content">
+                                        <p>БЛЮДО ДНЯ</p>
+                                        <a href="#">КУРИНЫЕ НОЖКИ НА ГРИЛЕ</a>
+                                        <img src="image/recept__image/ico.png">
+                                    </div>
+                                </div>
+                                <div class="recept__div__image">
+                                    <div class="recept__div__image_2"><a href="#"><img src="image/recept__image/02.jpg" alt=""></a></div>
+                                    <div class="image__content">
+                                        <p>ЛУЧШИЕ РЕЦЕПТЫ НЕДЕЛИ</p>
+                                        <a href="#">7 ЛУЧШИХ РЕЦЕПТОВ НЕДЕЛИ</a>
+                                        <img src="image/recept__image/ico.png">
+                                    </div>                              
+                                </div>
+                            </div>
+
+                            <div class="recept__center">
+                                <div class="recept__div__image_c"> 
+                                    <div class="center__div__image_c"><a href="#"><img src="image/recept__image/03.jpg"></a></div>
+                                    <div class="center__content">
+                                        <a href="#" class="center__link">КАК ПРИГОТОВИТЬ ПИРОГ В ОДНОЙ ПОСУДЕ 5 РЕЦЕПТОВ</a>
+                                    </div>
+                                </div>
+                                <div class="recept__div__image_c">
+                                    <div class="center__div__image_c"><a href="#"><img src="image/recept__image/04.jpg" alt=""></a></div>
+                                    <div class="center__content center">
+                                        <p>Полезное</p>
+                                        <a href="#" class="center__link">КАК ПРИГОТОВИТЬ СЫРНЫЙ ТОРТ С ОВОЩАМИ</a>
+                                    </div>                              
+                                </div>
+                                <div class="recept__div__image_c">
+                                    <div class="center__div__image_c"><a href="#"><img src="image/recept__image/05.jpg" alt=""></a></div>
+                                    <div class="center__content">
+                                        <a href="#" class="center__link">10 ПРОСТЫХ НАПИТКОВ В ЖАРУ</a>
+                                    </div>                              
+                                </div>
+                            </div>
+
+                            <div class="recept__bottom">
+                                <div class="recept__div__image_c"> 
+                                    <div class="center__div__image_c"><a href="#"><img src="image/recept__image/06.jpg"></a></div>
+                                    <div class="center__content">
+                                        <a href="#" class="center__link">ЧТО ТАКОЕ МЕД ?</a>
+                                    </div>
+                                </div>
+                                <div class="recept__div__image_c">
+                                    <div class="center__div__image_c"><a href="#"><img src="image/recept__image/07.jpg" alt=""></a></div>
+                                    <div class="center__content center">
+                                        <p>Полезное</p>
+                                        <a href="#" class="center__link">КАК ПРАВИЛЬНО ЗАМЕСИТЬ ДРОЖЕВОЕ ТЕСТО</a>
+                                    </div>                              
+                                </div>
+                                <div class="recept__div__image_c">
+                                    <div class="center__div__image_c"><a href="#"><img src="image/recept__image/08.jpg" alt=""></a></div>
+                                    <div class="center__content">
+                                        <a href="#" class="center__link">ЧЕЛОВЕК, КОТОРЫЙ ДЕЛАЕТ ЛУЧШИЕ МИТБОЛЫ В БЕЛЬГИИ</a>
+                                    </div>                              
+                                </div>
+                            </div>
+                        </div>
+                    </div>       
+                </section>
+                <section class="new">
+                    <div class="content__info__image"><img src="image/info/info.png" alt="img"></div>
+                    <h2 class="pecept__title">РЕЦЕПТЫ</h2>
+                    <div id="myBtnContainer" class="myBtnContainer">
+                        <button class="btn active" onclick="filterSelection('all')" id="all"> 
+                              <span class="btn__text"><span>Все рецепты</span></span></button>      
+                        <button class="btn" onclick="filterSelection('new')" id="new">Новые рецепты</button>
+                        <button class="btn" onclick="filterSelection('popular')" id="pop">Популярное</button>
+                     </div>
+                     <div class="new__elements">
+                        <div class="el__filter__string">
+                            <div class="filterDiv new">
+                                <div class="filter__body">
+                                   <div class="new__block_image">
+                                        <a href="#"><img class="hover_i" src="image/filter/f_1.jpg"></a>
+                                        <img src="image/filter/photo.png">
+                                        <span>Daria Fedorenko</span>
+                                    </div>
+                                    <div class="new__block__content">
+                                         <a href="#">Утиные ножки с овощами и грудинкой</a>
+                                         <div class="new__ico">
+                                            <div class="ico ico_1">
+                                                 <img src="image/filter/i_1.png">
+                                                 <span>135 мин</span>
+                                            </div>
+                                            <div class="ico ico_2">
+                                                <img src="image/filter/i_2.png">
+                                                <span>Сложно</span>
+                                            </div>
+                                            <div class="ico ico_3">
+                                                <img src="image/filter/i_3.png">
+                                                <span>125 ккал</span>
+                                            </div> 
+                                           </div>
+                                           <div class="new__text">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец черный, зелень петрушки....
+                                           </div>
+                                           <div class="new__social">
+                                           <div class="new__like"><a href=""><img src="image/filter/i_4.png"></a><span>16</span></div>
+                                           <div class="new__facebook">
+                                                <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+                                            </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="filterDiv popular">
+                                <div class="filter__body">
+                                    <div class="new__block_image">
+                                         <a href="#"><img class="hover_i" src="image/filter/f_2.jpg"></a>
+                                         <img src="image/filter/photo.png">
+                                         <span>Daria Fedorenko</span>
+                                     </div>
+                                     <div class="new__block__content">
+                                          <a href="#">Салат из свеклы с козьим сыром и медовой заправкой</a>
+                                          <div class="new__ico">
+                                             <div class="ico ico_1">
+                                                  <img src="image/filter/i_1.png">
+                                                  <span>135 мин</span>
+                                             </div>
+                                             <div class="ico ico_2">
+                                                 <img src="image/filter/i_2.png">
+                                                 <span>Сложно</span>
+                                             </div>
+                                             <div class="ico ico_3">
+                                                 <img src="image/filter/i_3.png">
+                                                 <span>125 ккал</span>
+                                             </div> 
+                                            </div>
+                                            <div class="new__text">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель...
+                                            </div>
+                                            <div class="new__social">
+                                            <div class="new__like"><a href=""><img src="image/filter/i_4.png"></a><span>16</span></div>
+                                            <div class="new__facebook">
+                                                 <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                 <a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="el__filter__string">
+                            <div class="filterDiv new">
+                                <div class="filter__body">
+                                   <div class="new__block_image">
+                                        <a href="#"><img class="hover_i" src="image/filter/f_3.jpg"></a>
+                                        <img src="image/filter/photo.png">
+                                        <span>Daria Fedorenko</span>
+                                    </div>
+                                    <div class="new__block__content">
+                                         <a href="#">Американский тыквенный пирог с корицей</a>
+                                         <div class="new__ico">
+                                            <div class="ico ico_1">
+                                                 <img src="image/filter/i_1.png">
+                                                 <span>135 мин</span>
+                                            </div>
+                                            <div class="ico ico_2">
+                                                <img src="image/filter/i_2.png">
+                                                <span>Сложно</span>
+                                            </div>
+                                            <div class="ico ico_3">
+                                                <img src="image/filter/i_3.png">
+                                                <span>125 ккал</span>
+                                            </div> 
+                                           </div>
+                                           <div class="new__text">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец черный, зелень петрушки....
+                                           </div>
+                                           <div class="new__social">
+                                           <div class="new__like"><a href=""><img src="image/filter/i_4.png"></a><span>16</span></div>
+                                           <div class="new__facebook">
+                                                <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+                                            </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="filterDiv popular">
+                                <div class="filter__body">
+                                    <div class="new__block_image">
+                                         <a href="#"><img class="hover_i" src="image/filter/f_4.jpg"></a>
+                                         <img src="image/filter/photo.png">
+                                         <span>Daria Fedorenko</span>
+                                     </div>
+                                     <div class="new__block__content">
+                                          <a href="#">Салат «Цезарь» традиционный фасолью</a>
+                                          <div class="new__ico">
+                                             <div class="ico ico_1">
+                                                  <img src="image/filter/i_1.png">
+                                                  <span>135 мин</span>
+                                             </div>
+                                             <div class="ico ico_2">
+                                                 <img src="image/filter/i_2.png">
+                                                 <span>Сложно</span>
+                                             </div>
+                                             <div class="ico ico_3">
+                                                 <img src="image/filter/i_3.png">
+                                                 <span>125 ккал</span>
+                                             </div> 
+                                            </div>
+                                            <div class="new__text">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец черный...
+                                            </div>
+                                            <div class="new__social">
+                                            <div class="new__like"><a href=""><img src="image/filter/i_4.png"></a><span>16</span></div>
+                                            <div class="new__facebook">
+                                                 <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                 <a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="el__filter__string">
+                            <div class="filterDiv new">
+                                <div class="filter__body">
+                                   <div class="new__block_image">
+                                        <a href="#"><img class="hover_i" src="image/filter/f_5.jpg"></a>
+                                        <img src="image/filter/photo.png">
+                                        <span>Daria Fedorenko</span>
+                                    </div>
+                                    <div class="new__block__content">
+                                         <a href="#">Соте из брюссельской капусты с варено-капченым окороком</a>
+                                         <div class="new__ico">
+                                            <div class="ico ico_1">
+                                                 <img src="image/filter/i_1.png">
+                                                 <span>135 мин</span>
+                                            </div>
+                                            <div class="ico ico_2">
+                                                <img src="image/filter/i_2.png">
+                                                <span>Сложно</span>
+                                            </div>
+                                            <div class="ico ico_3">
+                                                <img src="image/filter/i_3.png">
+                                                <span>125 ккал</span>
+                                            </div> 
+                                           </div>
+                                           <div class="new__text">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец черный, зелень петрушки....
+                                           </div>
+                                           <div class="new__social">
+                                           <div class="new__like"><a href=""><img src="image/filter/i_4.png"></a><span>16</span></div>
+                                           <div class="new__facebook">
+                                                <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+                                            </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="filterDiv popular">
+                                <div class="filter__body">
+                                    <div class="new__block_image">
+                                         <a href="#"><img class="hover_i" src="image/filter/f_6.jpg"></a>
+                                         <img src="image/filter/photo.png">
+                                         <span>Daria Fedorenko</span>
+                                     </div>
+                                     <div class="new__block__content">
+                                          <a href="#">Жареные баклажаны с помидорами</a>
+                                          <div class="new__ico">
+                                             <div class="ico ico_1">
+                                                  <img src="image/filter/i_1.png">
+                                                  <span>135 мин</span>
+                                             </div>
+                                             <div class="ico ico_2">
+                                                 <img src="image/filter/i_2.png">
+                                                 <span>Сложно</span>
+                                             </div>
+                                             <div class="ico ico_3">
+                                                 <img src="image/filter/i_3.png">
+                                                 <span>125 ккал</span>
+                                             </div> 
+                                            </div>
+                                            <div class="new__text">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель...
+                                            </div>
+                                            <div class="new__social">
+                                            <div class="new__like"><a href=""><img src="image/filter/i_4.png"></a><span>16</span></div>
+                                            <div class="new__facebook">
+                                                 <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                 <a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="el__filter__string">
+                            <div class="filterDiv new">
+                                <div class="filter__body">
+                                   <div class="new__block_image">
+                                        <a href="#"><img class="hover_i" src="image/filter/f_7.jpg"></a>
+                                        <img src="image/filter/photo.png">
+                                        <span>Daria Fedorenko</span>
+                                    </div>
+                                    <div class="new__block__content">
+                                         <a href="#">Наварен из говядины</a>
+                                         <div class="new__ico">
+                                            <div class="ico ico_1">
+                                                 <img src="image/filter/i_1.png">
+                                                 <span>135 мин</span>
+                                            </div>
+                                            <div class="ico ico_2">
+                                                <img src="image/filter/i_2.png">
+                                                <span>Сложно</span>
+                                            </div>
+                                            <div class="ico ico_3">
+                                                <img src="image/filter/i_3.png">
+                                                <span>125 ккал</span>
+                                            </div> 
+                                           </div>
+                                           <div class="new__text">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец черный, зелень петрушки....
+                                           </div>
+                                           <div class="new__social">
+                                           <div class="new__like"><a href=""><img src="image/filter/i_4.png"></a><span>16</span></div>
+                                           <div class="new__facebook">
+                                                <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+                                            </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="filterDiv popular">
+                                <div class="filter__body">
+                                    <div class="new__block_image">
+                                         <a href="#"><img class="hover_i" src="image/filter/f_8.jpg"></a>
+                                         <img src="image/filter/photo.png">
+                                         <span>Daria Fedorenko</span>
+                                     </div>
+                                     <div class="new__block__content">
+                                          <a href="#">Брюссельская капуста с белым соусом с сыром</a>
+                                          <div class="new__ico">
+                                             <div class="ico ico_1">
+                                                  <img src="image/filter/i_1.png">
+                                                  <span>135 мин</span>
+                                             </div>
+                                             <div class="ico ico_2">
+                                                 <img src="image/filter/i_2.png">
+                                                 <span>Сложно</span>
+                                             </div>
+                                             <div class="ico ico_3">
+                                                 <img src="image/filter/i_3.png">
+                                                 <span>125 ккал</span>
+                                             </div> 
+                                            </div>
+                                            <div class="new__text">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец черный
+                                            </div>
+                                            <div class="new__social">
+                                            <div class="new__like"><a href=""><img src="image/filter/i_4.png"></a><span>16</span></div>
+                                            <div class="new__facebook">
+                                                 <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                 <a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="el__filter__string">
+                            <div class="filterDiv new">
+                                <div class="filter__body">
+                                   <div class="new__block_image">
+                                        <a href="#"><img class="hover_i" src="image/filter/f_9.jpg"></a>
+                                        <img src="image/filter/photo.png">
+                                        <span>Daria Fedorenko</span>
+                                    </div>
+                                    <div class="new__block__content">
+                                         <a href="#">Печеночный торт с морковью и луком</a>
+                                         <div class="new__ico">
+                                            <div class="ico ico_1">
+                                                 <img src="image/filter/i_1.png">
+                                                 <span>135 мин</span>
+                                            </div>
+                                            <div class="ico ico_2">
+                                                <img src="image/filter/i_2.png">
+                                                <span>Сложно</span>
+                                            </div>
+                                            <div class="ico ico_3">
+                                                <img src="image/filter/i_3.png">
+                                                <span>125 ккал</span>
+                                            </div> 
+                                           </div>
+                                           <div class="new__text">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец черный, зелень петрушки....
+                                           </div>
+                                           <div class="new__social">
+                                           <div class="new__like"><a href=""><img src="image/filter/i_4.png"></a><span>16</span></div>
+                                           <div class="new__facebook">
+                                                <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                <a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+                                            </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="filterDiv popular">
+                                <div class="filter__body">
+                                    <div class="new__block_image">
+                                         <a href="#"><img class="hover_i" src="image/filter/f_10.jpg"></a>
+                                         <img src="image/filter/photo.png">
+                                         <span>Daria Fedorenko</span>
+                                     </div>
+                                     <div class="new__block__content">
+                                          <a href="#">Классический крабовый салат с огурцом и мидиями</a>
+                                          <div class="new__ico">
+                                             <div class="ico ico_1">
+                                                  <img src="image/filter/i_1.png">
+                                                  <span>135 мин</span>
+                                             </div>
+                                             <div class="ico ico_2">
+                                                 <img src="image/filter/i_2.png">
+                                                 <span>Сложно</span>
+                                             </div>
+                                             <div class="ico ico_3">
+                                                 <img src="image/filter/i_3.png">
+                                                 <span>125 ккал</span>
+                                             </div> 
+                                            </div>
+                                            <div class="new__text">говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец черный
+                                            </div>
+                                            <div class="new__social">
+                                            <div class="new__like"><a href=""><img src="image/filter/i_4.png"></a><span>16</span></div>
+                                            <div class="new__facebook">
+                                                 <a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                                 <a href="#"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+                                             </div>
+                                     </div>
+                                 </div>
+                               </div>
+                            </div>
+                        </div>
+                   </div>
+                </section>
+                <section class="hide">
+                    <div class="content__info__image"><img src="image/info/info.png" alt="img"></div>
+                    <h2 class="pecept__title">#ГОРЯЧАЯ ПОДБОРКА</h2>
+                    <div class="hide__body">
+                        <div class="hide__item">
+                            <a href="#"><img src="image/hide/h_1.jpg"></a>
+                            <div class="hide__title">ПОХМЕЛЬНЫЕ РЕЦЕПТЫ</div>
+                        </div>
+                        <div class="hide__item">
+                            <a href="#"><img src="image/hide/h_2.jpg"></a>
+                            <div class="hide__title">МАСЛЕНИЦА</div>
+                        </div>
+                        <div class="hide__item">
+                            <a href="#"><img src="image/hide/h_3.jpg"></a>
+                            <div class="hide__title">РЕЦЕПТЫ ДЛЯ ДЕТЕЙ</div>
+                        </div>
+                        <div class="hide__item">
+                            <a href="#"><img src="image/hide/h_4.jpg"></a>
+                            <div class="hide__title">ЗДОРОВОЕ ПИТАНИЕ</div>
+                        </div>
+                    </div>
+                </section>
+                <section class="author">
+                    <h2 class="pecept__title">ТОП АВТОРОВ</h2>
+                    <div class="author__body">
+                        <div class="author__item"><a href="#"><img src="image/author/images.jpg"></a></div>
+                        <div class="author__item"><a href="#"><img src="image/author/images (1).jpg"></a></div>
+                        <div class="author__item"><a href="#"><img src="image/author/images (2).jpg"></a></div>
+                        <div class="author__item"><a href="#"><img src="image/author/3.jpg"></a></div>
+                        <div class="author__item"><a href="#"><img src="image/author/4.jpg"></a></div>
+                        <div class="author__item"><a href="#"><img src="image/author/5.jpg"></a></div>
+                        <div class="author__item"><a href="#"><img src="image/author/6.jpg"></a></div>
+                        <div class="author__item"><a href="#"><img src="image/author/7.jpg"></a></div>
+                        <div class="author__item"><a href="#"><img src="image/author/3.jpg"></a></div>
+                        <div class="author__item"><a href="#"><img src="image/author/images.jpg"></a></div>
+                        <div class="author__item"><a href="#"><img src="image/author/5.jpg"></a></div>
+                    </div>
+                </section>
+            </div>
+            <footer class="footer">
+                <form action="#" class="footer__form">
+                    <div class="footer__form__body">
+                        <div class="footer__label"><label for="email">ПОДПИШИТЕСЬ НА РАССЫЛКУ <span>РЕЦЕПТОВ</span>  и <span>СОВЕТОВ</span></label></div>
+                        <div class="footer__input">
+                            <input type="email" id="email" placeholder="Адрес электронной почты">
+                            <button type="submit"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </form>
+                <div class="footer__bottom">
+                    <div class="footer__bottom__body">  
+                    <nav class="footer__nav">
+                        <a href="#" class="footer__nav__link">ГЛАВНАЯ</a>
+                        <a href="#" class="footer__nav__link">РЕЦЕПТЫ</a>
+                        <a href="#" class="footer__nav__link">ИДЕИ</a>
+                        <a href="#" class="footer__nav__link">ЖУРНАЛ</a>
+                        <a href="#" class="footer__nav__link">АВТОРЫ</a>
+                        <a href="#" class="footer__nav__link">FAQ</a>
+                    </nav>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social__link"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                        <a href="#" class="footer__social__link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" class="footer__social__link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" class="footer__social__link"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                    </div>
+                </div> 
+                </div>
+            </footer>
+         </main>
+     </div>
+</div>    
+
+
+<!-- Кнопка вверх -->
+
+<div class="arrowTop" hidden>
+    <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
+</div>
+
+
+
+<!-- МОДАЛЬНЫЕ ОКНА -->
+
+<div class="popup" id="popup">
+   <a href="#header" class="popup__area"></a>
+   <div class="popup__body">
+       <form action="" class="popup__content">
+           <a href="##" class="popup__close"><i class="fa fa-times" aria-hidden="true"></i></a>
+           <h3 class="popup__title">Вход в личный кабинет</h3>
+           <span class="popup__subtitle"><a href="#">Регистрация</a></span>
+           <div class="popup__inputs">
+                <label for="name">Введите имя</label><input type="text" id="name" class="name"><br>
+               <label for="password">Введите пароль</label><input type="password" id="password" class="password">
+           </div>
+           <button type="submit" class="btn__submit">Войти</button>
+           <button type="reset" class="btn__reset">Очистить</button>
+           <a href="#" class="rem_pass">Забыли пароль?</a>
+       </form>
+   </div>
+</div> 
+
+
+
+<div class="popup" id="popup2">
+    <a href="#header" class="popup__area"></a>
+    <div class="popup__body">
+        <div action="" class="popup__content">
+            <a href="##" class="popup__close"><i class="fa fa-times" aria-hidden="true"></i></a>
+            <h3 class="popup__title popup__title_2">Ваши уведомления</h3>
+            <span class="popup__subtitle popup__subtitle_2">Чтобы увидить новые уведомления нужно <a href="#popup">войти</a></span>  
+        </div>
+    </div>
+ </div> 
+
+<script src="script/main.js"></script>   
+</body>
+</html>
